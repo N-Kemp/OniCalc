@@ -1,0 +1,20 @@
+{
+    "tools": [
+        {
+            "id": 1,
+            "name": "Hatch"
+        },
+        {
+            "id": 2,
+            "name": "Stone Hatch"
+        },
+        {
+            "id": 3,
+            "name": "Sage Hatch"
+        },
+        {
+            "id": 4,
+            "name": "Smooth Hatch"
+        }
+    ]
+}

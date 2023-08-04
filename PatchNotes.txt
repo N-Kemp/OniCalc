@@ -1,0 +1,3 @@
+This update has the index pages basic layout and setup.
+A Json file was added to hold all the data for the "tools".
+Classses were created to hold the data in the json files and generate html elements to display said data.

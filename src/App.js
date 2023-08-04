@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Tool from './components/data.js'
+import Tools from './components/Tools.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/> 
+      </head>
+      <div id="body">
+            <div id="header">
+                <h1>ONI calculator</h1>
+            </div>
+            <div id="tools">
+                <p>This is where the tools go.</p>
+                <Tools />
+            </div>
+            <div id="calc">
+                <p>This is where the calculations go.</p>
+            </div>
+        </div>
     </div>
   );
 }
